@@ -1,34 +1,109 @@
 <!DOCTYPE html>
 <title>MarioTee IO</title>
+<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 <link rel="stylesheet" href="./index.css">
 <link rel="shortcut icon" href="./favicon.ico"/>
 <div class="main">
-  <h1>Mario Torres</h1>
-  <p>
-    University of Iowa, Class of 2019<br/><br/>
-    I am studying web development right now, and I have been working on a couple of practice apps.
-    The source code for most of these can be found on my GitHub: 
-    <a href="https://github.com/mariotee">https://github.com/mariotee</a><br/>
-  </p>
-  <p>
-    Also a link to a PDF of 
-    <a href="./Resume/web/viewer.html?file=resume.pdf">my resume</a>
-  </p>
+  <div>
+    <h1>Mario Torres</h1>
+    <h5>University of Iowa, Class of 2019</h5>
+    <p>
+      I am studying web development right now, and I have been working on a couple of 
+      practice projects. The source code for most of these can be found on my GitHub: <br/>
+      <a href="https://github.com/mariotee">https://github.com/mariotee</a><br/>
+    </p>
+    <p>
+      also view my
+      <a href="./Resume/web/viewer.html?file=resume.pdf">Resume</a> here
+    </p>
+  </div>
   <div class="grid-container">
     <div class="grid-item">
-      <a class="btn-apps" href="./WebNotes">Web Notes (MongoDB, AWS, React)</a>
+      <a class="btn-apps" href="./DadJokes">
+        <div style="text-align: center;">
+          Dad Jokes<br/>
+          <img
+            src="./assets/dadjokes-pic.png"
+            alt="dad jokes screenshot"          
+            width="100%"
+          />
+        </div>
+        <p class="btn-text-snd">
+          fetching random dad jokes from ICanHazDadJoke and using the Unsplash API 
+          to get a photo based on the joke text<br/><br/>
+          Technologies used: ReactJS, axios
+        </p>
+      </a>
     </div>
     <div class="grid-item">
-      <a class="btn-apps" href="./DadJokes">Dad Jokes</a>
+      <a class="btn-apps" href="./WebNotes">
+        <div style="text-align: center;">
+          Web Notes<br/>
+          <img
+            src="./assets/webnotes-pic.png"
+            alt="web notes screenshot"          
+            width="100%"
+          />
+        </div>
+        <p class="btn-text-snd">
+          practicing using a database for posting and getting data as well as making user accounts
+          <br/><br/>
+          Technologies used: ReactJS w/Material UI, axios, Mongoose/MongoDB, 
+          Amazon Web Services (API Gateway and Lambda) w/ nodeJS, bcrypt for hashing passwords
+        </p>
+      </a>
     </div>
     <div class="grid-item">
-      <a class="btn-apps" href="./React-Scratch">React Scratch (Babel, WebPack Practice)</a>
-    </div>
-    <div class="grid-item">
-      <a class="btn-apps" href="./Enigma-Machine-Web">Enigma M3 Web (remake of a C++ project)</a>
+      <a class="btn-apps" href="./Enigma-Machine-Web">
+        <div style="text-align: center;">
+          Enigma M3 Web<br/>
+          <img
+            src="./assets/enigmaweb-pic.png"
+            alt="enigma web screenshot"
+            width="100%"
+          />
+        </div>
+        <p class="btn-text-snd">
+          remake of a C++ console application, this app is based on the Enigma M3 encryption machine 
+          that the Germans used during World War II. This was created to convert the console app to
+          something more accessible
+          <br/><br/>
+          Technologies used: ReactJS w/ Material UI
+        </p>
+      </a>
     </div>    
     <div class="grid-item">
-      <a class="btn-apps" href="./Chicago-Eats">Chicago Eats</a>
-    </div>    
+      <a class="btn-apps" href="./Chicago-Eats">
+        <div style="text-align: center;">
+            Chicago Eats<br/>
+            <img
+              src="./assets/chicagoeats-pic.png"
+              alt="chicago eats screenshot"
+              width="100%"
+            />
+          </div>
+          <p class="btn-text-snd">
+            <br/><br/>
+            Technologies used: ReactJS w/Material UI, Leaflet maps, Amazon Web Services 
+            (API Gateway, Lambda) w/node.js, SQL Server database
+          </p>
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class="btn-apps" href="./React-Scratch">
+        <div style="text-align: center;">
+          React Scratch<br/>
+          <img
+            src="./assets/reactscratch-pic.png"
+            alt="react scratch screenshot"
+            width="100%"
+          />
+        </div>
+        <p class="btn-text-snd">
+          learning how a boilerplate generator like 'create-react-app' works under the hood<br/><br/>
+          Technologies used: ReactJS w/Material UI, Babel, Webpack    
+        </p>
+      </a>
+    </div>
   </div>
 </div>

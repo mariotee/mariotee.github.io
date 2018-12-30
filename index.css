@@ -1,41 +1,53 @@
-html {
-  font-family: Segoe UI, Helvetica, sans-serif;
-}
-html, body {
-  height: 100%;
-  width: 100%;
+html, body {  
+  font-family: Baloo, Helvetica, sans-serif;    
   background-image: url("./bgnd.png");
-  background-color: #0f0000;
+  background-color: #333333;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
 }
+
+h5 {
+  font-weight: 500;
+}
+
 .main {
   background-color: #fefefe;
-  border: 8px groove #9c0606;
+  border: none;
+  border-radius: 16px;
   opacity: 0.7;
-  margin: 64px auto;
-  padding: 16px;
+  margin: auto;
+  padding: 16px 32px;
   min-width: 200px;
   width: 75%;
   max-width: 800px;
-  text-align: center;
+  box-shadow: 0 0 4px 0 #000;
 }
+
+.btn-text-snd {  
+  margin: 4px 16px;
+  font-size: 12px;  
+  color: #000;
+}
+
 .grid-container {
   display: grid;
 }
 .grid-item {
-  display: inline-grid;
+  display: inline-grid;  
 }
 .btn-apps {
   background-color: #ffeeee;
   border: 2px solid #cc3333;
   border-radius: 8px;
   width: auto;
-  margin: 8px 32px;
-  padding: 16px 0;
+  margin: 8px;
+  padding: 16px;
+  box-shadow: 0 0 4px 0 #999;
 }
 /*LINK STYLE*/
 a {
+  font-size: 1em;
   color: #cc0033;
   text-decoration: none;
 }
