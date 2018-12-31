@@ -20,6 +20,7 @@ h5 {
   padding: 16px 32px;
   min-width: 200px;
   width: 90%;  
+  max-width: 1024px;
   box-shadow: 0 0 4px 0 #000;
 }
 
@@ -32,9 +33,11 @@ h5 {
 .grid-container {
   display: grid;
 }
+
 .grid-item {
   display: inline-grid;  
 }
+
 .btn-apps {
   background-color: #ffeeee;
   border: 1px solid #cc3333;
