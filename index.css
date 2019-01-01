@@ -23,9 +23,14 @@ h5 {
   box-shadow: 0 0 4px 0 #000;
 }
 
+.btn-apps-div {
+  text-align: center;
+  font-size: 1.7em;
+}
+
 .btn-text-snd {  
   margin: 4px 16px;
-  font-size: 12px;  
+  font-size: 0.8em;  
   color: #000;
 }
 
