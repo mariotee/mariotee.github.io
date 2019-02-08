@@ -1,10 +1,5 @@
 html, body {
-  font-family: Baloo, Helvetica, sans-serif;
-  background-image: url("./bgnd.jpg");
-  background-color: #1c0000;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  font-family: Segoe UI, Helvetica, sans-serif;
 }
 
 h5 {
@@ -44,7 +39,7 @@ h5 {
 
 .btn-apps {
   background-color: #ffeeee;
-  border: 1px solid #cc3333;
+  border: none;
   border-radius: 8px;
   width: auto;
   margin: 8px;
@@ -62,12 +57,12 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #ff9933;
+  color: #ff6666;
   text-decoration: none;
 }
 a:active {
-  color: #0000ff;
+  color: #0066ff;
   text-decoration: none;
-  box-shadow: 0 0 8px 0 #0000ff;
+  box-shadow: 0 0 4px 0 #00ccff;
 }
 /*END LINK STYLE*/
