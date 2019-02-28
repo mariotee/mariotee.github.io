@@ -1,109 +1,341 @@
 <!DOCTYPE html>
-<title>Mario Torres</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./index.css">
-<link rel="shortcut icon" href="./favicon.ico"/>
-<div class="main">  
-  <h1>Mario Torres</h1>
-  <h5>University of Iowa, Class of 2019</h5>
-  <p>
-    I am studying web development right now, and I have been working on a couple of 
-    practice projects. The source code for some of these can be found on my GitHub: <br/>
-    <a href="https://github.com/mariotee">https://github.com/mariotee</a><br/>
-  </p>
-  <p>
-    my resume in
-    <a href="./resume/web/viewer.html?file=resume.pdf">PDF</a> or
-    <a href="./resume">HTML</a> page
-  </p>
-  <div class="grid-container">
-    <div class="grid-item">
-      <a class="btn-apps" href="./Enigma-Machine-Web">
-        <div class="btn-apps-div">
-          <b>Enigma M3 Web</b><br/>
-          <img
-            src="./assets/enigmaweb-pic.png"
-            alt="enigma web screenshot"
-            width="100%"
-          />
-        </div>
-        <p class="btn-text-snd">
-          remake of a C++ console application, this app is based on the Enigma M3 encryption machine 
-          that the Germans used during World War II. This was created to convert the console app to
-          something more accessible
-          <br/><br/>
-          Technologies used: React
-        </p>
-      </a>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mario Torres</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+  <!-- More Dev Icons -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Mario Torres</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
+        </li>
+				<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Personal Projects</a>
+        </li>        
+				<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#supplemental">Supplemental</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>        
+      </ul>
     </div>
-    <div class="grid-item">
-      <a class="btn-apps" href="https://mtdadjokes.netlify.com">
-        <div class="btn-apps-div">
-          <b>Dad Jokes</b><br/>
-          <img
-            src="./assets/dadjokes-pic.png"
-            alt="dad jokes screenshot"          
-            width="100%"
-          />
+  </nav>
+
+  <div class="container-fluid p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+				<div class="d-flex flex-row justify-content-between">
+					<h1 class="mb-3">Mario Torres</h1>
+					<div class="social-icons p-3">
+						<a class="m-1" href="https://github.com/mariotee">
+							<i class="fab fa-github"></i>
+						</a>          
+						<a class="m-1" href="https://www.linkedin.com/in/mario-torres10/">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</div>
+				</div>
+        <div class="subheading mb-5">10823 S. Green Bay Ave. · Chicago, IL 60617 · (773) 710-3386 ·
+          <a href="mailto:martorres@protonmail.com">martorres@protonmail.com</a>
         </div>
-        <p class="btn-text-snd">
-          fetching random dad jokes from ICanHazDadJoke and using the Unsplash API 
-          to get a photo based on the joke text<br/><br/>
-          Technologies used: React, axios
-        </p>
-      </a>
-    </div>
-    <div class="grid-item">
-      <a class="btn-apps" href="./WebNotes">
-        <div class="btn-apps-div">
-          <b>Web Notes</b><br/>
-          <img
-            src="./assets/webnotes-pic.png"
-            alt="web notes screenshot"          
-            width="100%"
-          />
-        </div>
-        <p class="btn-text-snd">
-          practicing using a database for posting and getting data as well as making user accounts
-          <br/><br/>
-          Technologies used: React, axios, Mongoose/MongoDB, Amazon Web Services (API Gateway and Lambda) 
-          w/ nodeJS, bcrypt for hashing passwords
-        </p>
-      </a>
-    </div>    
-    </div>    
-    <div class="grid-item">
-      <a class="btn-apps" href="./ChicagoEats">
-        <div class="btn-apps-div">
-            <b>Chicago Eats</b><br/>
-            <img
-              src="./assets/chicagoeats-pic.png"
-              alt="chicago eats screenshot"
-              width="100%"
-            />
+        <p class="lead mb-5">
+					I am a Computer Science &amp; Engineering student @ the University of Iowa.
+					I have an affinity for database &amp; cloud technology, but I enjoy both front and back end development.
+				</p>        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3>Education</h3>
+            <div class="subheading">University of Iowa, BSE</div>
+						<div style="font-size: 0.8rem;">August 2015 - May 2019</div>
+            <div>Computer Science &amp; Engineering</div>
+						<div>Minor in Mathematics</div>
+            <p>Cummulative GPA: 3.25</p>
+          </div>          
+        </div>      
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Work Experience</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineering Intern</h3>
+            <div class="subheading mb-3">IDx Technologies, Inc.</div>
+            <ul>
+							<li>Developed classes and services for backend of internal automation application</li>
+							<li>Developed a functional mock for another internal web application</li>
+							<li>Database design and scripting using SQL</li>
+						</ul>
           </div>
-          <p class="btn-text-snd">
-            practicing integrating Leaflet maps into a React app
-            <br/><br/>
-            Technologies used: React, Leaflet maps, Amazon Web Services (API Gateway, Lambda) w/node.js, MongoDB (migrated from SQL Server database)
-          </p>
-      </a>
-    </div>
-    <div class="grid-item">
-      <a class="btn-apps" href="./React-Scratch">
-        <div class="btn-apps-div">
-          <b>React Scratch</b><br/>
-          <img
-            src="./assets/reactscratch-pic.png"
-            alt="react scratch screenshot"
-            width="100%"
-          />
+          <div class="resume-date text-md-right mb-3">
+            <span class="text-primary">May 2018 - present</span>
+          </div>
         </div>
-        <p class="btn-text-snd">
-          learning how a boilerplate generator like 'create-react-app' works under the hood<br/><br/>
-          Technologies used: React, Babel, Webpack
-        </p>
-      </a>
-    </div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Audio/Visual Assistant</h3>
+            <div class="subheading mb-3">University of Iowa, Carver College of Medicine</div>
+            <ul>
+							<li>Prepared school equipment for professors' lectures</li>
+							<li>Routine checkups on equipment</li>
+							<li>Training new hires on customer service</li>
+						</ul>
+          </div>
+          <div class="resume-date text-md-right mb-3">
+            <span class="text-primary">September 2016 - present</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0"/>
+
+		<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Personal Projects</h2>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0"><a href="https://mariotee.github.io/Enigma-Machine-Web/">Enigma Machine Web</a></h3>
+            <div class="mb-3 subheading" style="font-size: 1rem">React, Object-Orientated JavaScript</div>
+            <p>
+							This project started out as a C++ console application. The design is based on the 
+							Enigma M3 encryption machine that was used by the Germans during World War II.  A lot
+							of research was done to model the classes on the machine's physical components (rotors, plugboard, etc).
+						</p>
+          </div>          
+        </div>				
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0"><a href="https://mariotee.github.io/DadJokes/">Dad Jokes</a></h3>
+            <div class="mb-3 subheading" style="font-size: 1rem">React, axios</div>
+            <p>
+							Fetching random dad jokes from ICanHazDadJoke and using the Unsplash API to get
+							a photo based on the joke text. 
+						</p>
+          </div>
+        </div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0"><a href="https://mariotee.github.io/WebNotes/">Web Notes<a/></h3>
+            <div class="mb-3 subheading" style="font-size: 1rem">
+							React, axios, Mongoose/MongoDB, AWS (API Gateway &amp; Lambda),
+							nodeJs, bcrypt for hashing passwords
+						</div>
+            <p>
+							Practice using a NoSQL database for posting and getting data as well as making user accounts.
+							This little forum app was also used to practice responsive CSS.
+						</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<hr class="m-0"/>    
+
+		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="supplemental">
+      <div class="w-100">
+        <h2 class="mb-5">Supplemental Courses</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+						<h3>Eduonix Learning Solutions</h3>
+						<ul class="fa-ul">              
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                The Full Stack Web Development
+              </li>
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                Learn NodeJS by Building 10 Projects
+              </li>
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                Projects in HTML5
+              </li>
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                Projects in ReactJS - The Complete React Learning Course
+              </li>
+						</ul>							
+						<h3>Minerva</h3>
+						<ul class="fa-ul">
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                Practical Neural Networks &amp; Deep Learning in R
+              </li>									
+						</ul>							
+						<h3>Scrimba</h3>
+						<ul class="fa-ul">
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                Neural Networks in JavaScript
+              </li>
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                Learn React: A Comprehensive Introduction
+              </li>
+							<li>
+                <i class="fa-li fa fa-chevron-circle-right"></i>
+                Introduction to Typescript
+              </li>
+						</ul>													
+          </div>                               
+        </div>        
+      </div>
+    </section>
+
+    <hr class="m-0"/>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="devicon-javascript-plain" title="JavaScript"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-csharp-plain" title="C#/.NET"></i>
+          </li>
+					<li class="list-inline-item">
+            <i class="devicon-nodejs-plain-wordmark" title="node.js"></i>
+          </li>
+					<li class="list-inline-item">
+            <i class="fab fa-aws" title="Amazon Web Services"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-mongodb-plain-wordmark" title="MongoDB"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-mocha-plain" title="mocha.js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-mysql-plain" title="MySQL"></i>
+          </li>          
+          <li class="list-inline-item">
+            <i class="devicon-php-plain" title="PHP"></i>
+          </li>          
+					<li class="list-inline-item">
+            <i class="devicon-react-original" title="React.js"></i>
+          </li>          					
+          <li class="list-inline-item">
+            <i class="devicon-typescript-plain" title="Typescript"></i>
+          </li>          					
+          <li class="list-inline-item">
+            <i class="devicon-sass-original" title="Sass/SCSS"></i>
+          </li>                        		  
+					<li class="list-inline-item">
+            <i class="devicon-gulp-plain" title="Gulp"></i>
+          </li>                        					
+          <li class="list-inline-item">
+            <i class="devicon-babel-plain" title="Babel"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-webpack-plain" title="Webpack"></i>
+          </li>
+					<li class="list-inline-item">
+            <i class="fab fa-npm"  title="npm"></i>
+          </li>		  
+					<li class="list-inline-item">
+            <i class="devicon-git-plain"  title="git"></i>
+          </li>
+					<li class="list-inline-item">
+            <i class="devicon-linux-plain"  title="Linux"></i>
+          </li>
+					<li class="list-inline-item">
+            <i class="devicon-windows8-original" title="Windows"></i>
+					</li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+					<li>
+            <i class="fa-li fa fa-check"></i>
+            Test-Driven Development
+					</li>
+					<li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum
+					</li>
+					<li>
+            <i class="fa-li fa fa-check"></i>
+            Design for Maintainaility &amp; Extensibility
+					</li>
+					<li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging
+					</li>          
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0"/>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Hobbies &amp; Interests</h2>
+        <p>
+					Apart from being a web developer, I am a lover of music &amp; music production.
+					I play many instruments that are mainly found in pop music (drums, guitar, bass, keyboard).
+					I enjoy sound design, recording, and collaborating with others as well.					
+				</p>        
+				<p>
+					I also dabble a little in Photoshop. I like taking photos with my phone of people and lanscapes.
+					Then, I enhance them digitally by playing around with filtering and merging techniques.
+				</p>
+      </div>
+    </section>
   </div>
-</div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+</body>
+
+</html>
