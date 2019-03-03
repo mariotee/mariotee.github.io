@@ -1,12 +1,11 @@
 {
     "title": "Resume",
     "name": "startbootstrap-resume",
-    "homepage": "https://mariotee.github.io/newpage",
+    "homepage": "https://mariotee.github.io",
     "version": "5.0.4",
     "scripts": {
         "start": "gulp watch",
-        "prepublish": "gulp build",
-        "publish": "gh-pages -d ."
+        "build": "gulp build"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
