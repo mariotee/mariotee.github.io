@@ -7,7 +7,7 @@
         "start": "gulp watch",
         "build": "gulp build",
         "prepublish": "npm run build",
-        "publish": "git stage -A && git commit -m \"lazy default publish message\" && git push && echo \"published\""
+        "publish": "git stage -A && git commit -m \"lazy default publish message\" && git push && echo published"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
