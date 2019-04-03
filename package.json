@@ -8,7 +8,7 @@
         "build": "gulp build",
         "pregit": "npm run build",
         "git": "git stage -A && git commit -m",
-        "postgit": "git push && echo Pushed to Git",        
+        "postgit": "git push",
         "deploy": "npm run git --",
         "postdeploy": "echo published"
     },
