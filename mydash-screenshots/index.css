@@ -1,0 +1,15 @@
+body {
+  background-color: #1c1c1c;
+  color: #cccccc;  
+}
+
+main {
+  text-align: center;
+}
+
+img.screenshots {  
+  display: block;
+  width: 90%;
+  margin: 16px auto;
+  border-radius: 8px;
+}
