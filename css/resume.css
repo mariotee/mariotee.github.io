@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.4 (https://mariotee.github.io)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
