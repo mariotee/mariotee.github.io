@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.7.2",
-      "C:\\Users\\mario\\Documents\\GitHub\\mariotee.github.io"
+      "/Users/pc/Documents/coding/mariotee.github.io"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.7.2",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.7.2.tgz",
   "_spec": "5.7.2",
-  "_where": "C:\\Users\\mario\\Documents\\GitHub\\mariotee.github.io",
+  "_where": "/Users/pc/Documents/coding/mariotee.github.io",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
